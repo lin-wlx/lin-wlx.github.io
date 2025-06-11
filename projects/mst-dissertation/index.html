@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto">
 
-<head>
-	<meta name="generator" content="Hugo 0.147.8"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
-<title>Linxuan Wang</title>
-
-<meta name="description" content="">
+<title>On Simulated Annealing, Metropolis algorithm and Minimum Spanning Trees | Linxuan Wang</title>
+<meta name="keywords" content="Optimization, Simulated Annealing, MST">
+<meta name="description" content="My BSc dissertation in Mathematics.
+The Metropolis Algorithm is one of the earliest and most fundamental Markov Chain Monte Carlo (MCMC) methods. The algorithm can be adapted to search for optimal solutions in a combinatorial optimisation problem, with a fixed parameter (temperature) to control for acceptance probabilities. Simulated annealing is Metropolis with a varied temperature.
+In this dissertation, I gave an overview of two papers: one by Wegener(2005), covering how the Metropolis algorithm with arbitrary fixed temperature is unsuccessful on instances of the minimum spanning tree problem, whereas Simulated Annealing with a geometric cooling schedule is successful; the other by Doerr, Rajabi, and Witt (2022), covering that Simulated Annealing with an appropriate cooling schedule computes arbitrarily tight constant-factor approximations to the minimum spanning tree problem in polynomial time, which is a result conjectured by Wegener (2005).">
 <meta name="author" content="">
-<link rel="canonical" href="http://localhost:1313/">
+<link rel="canonical" href="http://localhost:1313/projects/mst-dissertation/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.36819bea596090d8b48cf10d9831382996197aa7e4fc86f792f7c08c9ca4d23b.css" integrity="sha256-NoGb6llgkNi0jPENmDE4KZYZeqfk/Ib3kvfAjJyk0js=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
@@ -19,8 +20,8 @@
 <link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/index.xml">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/">
+<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/projects/mst-dissertation/index.xml">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/projects/mst-dissertation/">
 <noscript>
     <style>
         #theme-toggle,
@@ -119,26 +120,16 @@
     </nav>
 </header>
 <main class="main"> 
-<div class="post-content"><div style="display: flex; align-items: flex-start; gap: 2rem; flex-wrap: wrap;">
-<!-- Left column -->
-<div style="flex: 1; text-align: center; min-width: 250px;">
-  <img src="/images/profile.png" alt="profile photo" width="200" style="border-radius: 50%; margin-bottom: 1rem;">
-  <div style="text-align: left; font-size: 0.95rem; line-height: 1.6;">
-    <p>📍 <strong>Location:</strong> London, UK</p>
-    <p>📧 <a href="mailto:lwang92@outlook.com">lwang92@outlook.com</a></p>
-    <p>💼 <a href="https://www.linkedin.com/in/linxuan-wang-5694301ba">LinkedIn</a></p>
-    <p>🐙 <a href="https://github.com/lin-wlx">GitHub</a></p>
-  </div>
-</div>
-<!-- Right column -->
-<div style="flex: 2; min-width: 300px;">
-  <h1>Hi! I'm Lin :)</h1>
-  <p>I am a recent graduate in <strong>Mathematics and Economics</strong> from the London School of Economics.</p>
-  <p>My research interests lie in <em>probability</em>, <em>causal inference</em> and <em>stochastic analysis</em>.</p>
-  <p>To know more, check out my <a href="/cv/">CV</a> and <a href="/projects/">selected projects</a>.
-  On the side, I am also a <a href="/guitar/">jazz guitarist</a>. Feel free to reach out!</p>
-</div>
-</div>
+<header class="page-header">
+  <h1>
+    On Simulated Annealing, Metropolis algorithm and Minimum Spanning Trees
+  </h1>
+</header>
+<div class="post-content"><p>My BSc <a href="/files/diss_template.pdf">dissertation in Mathematics.</a></p>
+<p>The Metropolis Algorithm is one of the earliest and most fundamental Markov Chain Monte Carlo (MCMC) methods. The algorithm can be adapted to search for optimal solutions in a combinatorial optimisation problem, with a fixed parameter (temperature) to control for acceptance probabilities. Simulated annealing is Metropolis with a varied temperature.</p>
+<p>In this dissertation, I gave an overview of two papers: one by Wegener(2005), covering how the Metropolis algorithm with arbitrary fixed temperature is unsuccessful on instances of the minimum spanning tree problem, whereas Simulated Annealing with a geometric cooling schedule is successful; the other by Doerr, Rajabi, and Witt (2022), covering that Simulated Annealing with an appropriate cooling schedule computes arbitrarily tight constant-factor approximations to the minimum spanning tree problem in polynomial time, which is a result conjectured by Wegener (2005).</p>
+<p>I revisited and provided detailed proofs of the key results from Wegener (2005) and Doerr et al. (2022) on the performance of Simulated Annealing for the Minimum Spanning Tree problem. I strengthened their analyses by deriving explicit probabilistic bounds on the success probability, obtained via novel estimates on the hitting time of a non-i.i.d. stochastic process arising from the algorithm&rsquo;s dynamics.</p>
+<p>My work was supervised by <a href="https://en.wikipedia.org/wiki/Graham_Brightwell">Prof. Graham Brightwell</a>.</p>
 
 
 </div>
