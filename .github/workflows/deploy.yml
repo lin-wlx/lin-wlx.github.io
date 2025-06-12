@@ -12,13 +12,13 @@ jobs:
       - name: Checkout source
         uses: actions/checkout@v3
         with:
-          submodules: recursive  # <-- CRITICAL FIX #1
+          submodules: recursive
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: '0.124.1'
-          extended: true         # <-- CRITICAL FIX #2
+          hugo-version: 'latest'  # <-- THIS IS THE FIX
+          extended: true
 
       - name: Build website
         run: hugo --minify
