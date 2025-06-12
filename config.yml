@@ -17,8 +17,14 @@ menu:
     - identifier: guitar
       name: Guitar
       url: /guitar/
+      weight: 30
+    - identifier: contact
+      name: Contact
+      url: /contact/
+      weight: 40
 
 markup:
   goldmark:
     renderer:
       unsafe: true
+
